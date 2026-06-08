@@ -1,5 +1,5 @@
 ---
-name: wtf-claude
+name: wtf
 description: >-
   Produce a structured "what the f*** just happened" post-mortem of a confusing
   coding session, a messy git working tree, a failed run, or a transcript/diff

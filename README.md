@@ -24,12 +24,15 @@ the worst moment to let an agent take the wheel.
 Clone straight into your Claude Code skills directory:
 
 ```bash
-git clone https://github.com/zvoque/wtf-claude.git ~/.claude/skills/wtf-claude
+git clone https://github.com/zvoque/wtf-claude.git ~/.claude/skills/wtf
 ```
 
-That's it. The skill is now available — invoke it with `/wtf`.
+The target directory must be named `wtf` — Claude Code derives the slash command
+from the skill's folder/name, so cloning into `~/.claude/skills/wtf` is what makes
+the command `/wtf` (not `/wtf-claude`). The repo is named `wtf-claude`; the
+installed skill is named `wtf`.
 
-To update later: `cd ~/.claude/skills/wtf-claude && git pull`.
+To update later: `cd ~/.claude/skills/wtf && git pull`.
 
 ---
 
